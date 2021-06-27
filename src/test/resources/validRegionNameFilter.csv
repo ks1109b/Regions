@@ -1,0 +1,6 @@
+endPoint,path,expected
+/regions?q=ош,"items.name",ош
+/regions?q=орёл,"items.name",орёл
+/regions?q=ЛаД,"items.name",ЛаД
+/regions?q=к-к,"items.name",к-к
+/regions?q=нижний новгород,"items.name",нижний новгород

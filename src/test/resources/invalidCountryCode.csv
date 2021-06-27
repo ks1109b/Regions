@@ -1,0 +1,10 @@
+endPoint,path,expected
+/regions?country_code=,"error.message","Параметр 'country_code' может быть одним из следующих значений: ru, kg, kz, cz"
+/regions?country_code=0,"error.message","Параметр 'country_code' может быть одним из следующих значений: ru, kg, kz, cz"
+/regions?country_code=null,"error.message","Параметр 'country_code' может быть одним из следующих значений: ru, kg, kz, cz"
+/regions?country_code=ua,"error.message","Параметр 'country_code' может быть одним из следующих значений: ru, kg, kz, cz"
+/regions?country_code=$,"error.message","Параметр 'country_code' может быть одним из следующих значений: ru, kg, kz, cz"
+/regions?country_code=один,"error.message","Параметр 'country_code' может быть одним из следующих значений: ru, kg, kz, cz"
+/regions?country_code=!,"error.message","Параметр 'country_code' может быть одним из следующих значений: ru, kg, kz, cz"
+/regions?country_code= ,"error.message","Параметр 'country_code' может быть одним из следующих значений: ru, kg, kz, cz"
+/regions?country_code=-1,"error.message","Параметр 'country_code' может быть одним из следующих значений: ru, kg, kz, cz"

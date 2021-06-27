@@ -1,0 +1,4 @@
+endPoint,path,expected
+/regions?page_size=5,"items",5
+/regions?page_size=10,"items",10
+/regions?page_size=15,"items",15

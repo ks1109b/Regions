@@ -1,0 +1,9 @@
+endPoint,path,expected
+/regions?page_size=,"error.message","Параметр 'page_size' должен быть целым числом"
+/regions?page_size=0,"error.message","Параметр 'page_size' может быть одним из следующих значений: 5, 10, 15"
+/regions?page_size=null,"error.message","Параметр 'page_size' должен быть целым числом"
+/regions?page_size=$,"error.message","Параметр 'page_size' должен быть целым числом"
+/regions?page_size=один,"error.message","Параметр 'page_size' должен быть целым числом"
+/regions?page_size=!,"error.message","Параметр 'page_size' должен быть целым числом"
+/regions?page_size= ,"error.message","Параметр 'page_size' должен быть целым числом"
+/regions?page_size=-1,"error.message","Параметр 'page_size' может быть одним из следующих значений: 5, 10, 15"

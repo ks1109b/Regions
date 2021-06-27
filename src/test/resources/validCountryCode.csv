@@ -1,0 +1,5 @@
+endPoint,path,expected
+/regions?country_code=ru,"items.country.code",ru
+/regions?country_code=kz,"items.country.code",kz
+/regions?country_code=kg,"items.country.code",kg
+/regions?country_code=cz,"items.country.code",cz

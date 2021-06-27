@@ -1,0 +1,9 @@
+endPoint,path,expected
+/regions?page=,"error.message",Параметр 'page' должен быть целым числом
+/regions?page=0,"error.message",Параметр 'page' должен быть больше 0
+/regions?page=null,"error.message",Параметр 'page' должен быть целым числом
+/regions?page=$,"error.message",Параметр 'page' должен быть целым числом
+/regions?page=один,"error.message",Параметр 'page' должен быть целым числом
+/regions?page=!,"error.message",Параметр 'page' должен быть целым числом
+/regions?page= ,"error.message",Параметр 'page' должен быть целым числом
+/regions?page=-1,"error.message",Параметр 'page' должен быть больше 0

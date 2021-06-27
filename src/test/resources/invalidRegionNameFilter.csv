@@ -1,0 +1,10 @@
+endPoint,path,expected
+/regions?q=,"error.message","Параметр 'q' должен быть не менее 3 символов"
+/regions?q=0,"error.message","Параметр 'q' должен быть не менее 3 символов"
+/regions?q=null,"error.message","Параметр 'q' содержит недопустимые символы"
+/regions?q=<?php echo 'напечатать' ?>,"error.message","Параметр 'q' содержит недопустимые символы"
+/regions?q=;,"error.message","Параметр 'q' должен быть не менее 3 символов"
+/regions?q=&,"error.message","Параметр 'q' должен быть не менее 3 символов"
+/regions?q= ,"error.message","Параметр 'q' должен быть не менее 3 символов"
+/regions?q=-1,"error.message","Параметр 'q' должен быть не менее 3 символов"
+/regions?q=текстсодержитболеетридцатисимволов,"error.message","Параметр 'q' должен быть не более 30 символов"
